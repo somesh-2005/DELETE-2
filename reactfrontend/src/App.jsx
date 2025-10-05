@@ -11,7 +11,6 @@ function App() {
       <div style={{ padding: "20px" }}>
         <Routes>
           <Route path="/" element={<TaskDashboard />} />
-          <Route path="/search" element={<SearchTask />} />
           <Route path="/board" element={<TaskBoard />} />
         </Routes>
       </div>
