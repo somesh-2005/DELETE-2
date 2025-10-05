@@ -117,12 +117,6 @@ export default function TaskDashboard() {
           <option value="MEDIUM">Medium</option>
           <option value="HIGH">High</option>
         </select>
-        <select name="status" value={form.status} onChange={handleChange}>
-          <option value="ASSIGNED">Assigned</option>
-          <option value="PROGRESS">Progress</option>
-          <option value="COMPLETED">Completed</option>
-          <option value="REJECTED">Rejected</option>
-        </select>
 
         <button type="submit">{editingTask ? "Update Task" : "Add Task"}</button>
         {editingTask && (
