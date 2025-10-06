@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import TaskDashboard from "./components/TaskDashboard";
-import SearchTask from "./components/SearchTask";
 import TaskBoard from "./components/TaskBoard";
 
 function App() {
