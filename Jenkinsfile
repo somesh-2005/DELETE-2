@@ -1,10 +1,7 @@
 pipeline {
     agent any
-
-    environment {
-        VITE_API_URL = "http://localhost:1030/trialbackend"
-    }
     
+
     stages {
 
         // ===== FRONTEND BUILD =====
