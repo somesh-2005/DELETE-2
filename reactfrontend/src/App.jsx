@@ -5,7 +5,8 @@ import TaskBoard from "./components/TaskBoard";
 
 function App() {
   return (
-    <Router>
+    // ✅ Add basename to BrowserRouter
+    <Router basename="/trialfrontend">
       <Navbar />
       <div style={{ padding: "20px" }}>
         <Routes>
