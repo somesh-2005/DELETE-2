@@ -1,6 +1,12 @@
 pipeline {
     agent any
 
+    // ===== Set Environment Variable for Frontend =====
+    environment {
+        // Backend URL (matches your Spring Boot server.port and WAR deployment)
+        VITE_API_URL = "http://localhost:1030/trialbackend"
+    }
+
     stages {
 
         // ===== FRONTEND BUILD =====
